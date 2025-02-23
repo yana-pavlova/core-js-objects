@@ -170,8 +170,6 @@ function sellTickets(queue) {
   return res;
 }
 
-console.log(sellTickets([25, 25, 25, 25, 50, 100, 50]));
-
 /**
  * Returns the rectangle object with width and height parameters and getArea() method
  *
