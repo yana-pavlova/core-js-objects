@@ -151,9 +151,6 @@ function makeWord(lettersObject) {
  *    sellTickets([25, 100]) => false (The seller does not have enough money to give change.)
  */
 function sellTickets(queue) {
-  if (!queue.length) return true;
-  if (queue[0] !== 25) return false;
-
   let res = true;
   let change = 0;
   const base = 25;
